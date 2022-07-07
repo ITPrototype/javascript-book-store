@@ -3,9 +3,6 @@ let num = 0
 const btn = document.getElementById('downBtn')
 const regBtn = document.getElementById('regBtn')
 const form = document.getElementById('form')
-// function register() {
-    
-// }
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const login = document.getElementById('login').value;
@@ -17,7 +14,6 @@ form.addEventListener('submit',(e)=>{
     localStorage.setItem('users', JSON.stringify(users))
     check()
 })
-
 function check() {
     const getLoc = JSON.parse(localStorage.getItem('users'))
     const greetuser = document.getElementById('sayHi')
@@ -29,7 +25,6 @@ function check() {
         regBtn.value = 'Registered'
         regBtn.disabled = true
         forEachButton(b => b.disabled = false)
-        console.log('Logged');
     }
 }
 setTimeout(function(){check()},5000)
