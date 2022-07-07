@@ -1,0 +1,34 @@
+{
+    "matem": [
+        {
+            "title": "6-sinf matematika",
+            "img": "./images/6matem.jpg",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/6-sinf/Matematika.%206-sinf%20(2017,%20M.Mirzaahmedov,%20A.Rahimqoriyev).pdf"
+        },
+        {
+            "title": "7-sinf matematika",
+            "img": "./images/7matem.jfif",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/7-sinf/Algebra.%207-sinf%20(2017,%20Sh.Alimov,%20O.Xolmuhamedov).pdf"
+        },
+        {
+            "title": "8-sinf algebra",
+            "img": "./images/8matem.png",
+            "link":"http://kutubxonachi.uz/media/books/algebra-8-sinf_kutubxonachi.uz.djvu"
+        },
+        {
+            "title": "9-sinf matematika",
+            "img": "./images/9matem.jfif",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/9-sinf/Algebra.%209-sinf%20(2014,%20Sh.Alimov,%20O.Xolmuhamedov).pdf"
+        },
+        {
+            "title": "10-sinf matematika",
+            "img": "./images/10matem.jfif",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/10-sinf/Matematika.%2010-sinf%20(2017,%20M.Mirzaahmedov,%20B.Haydarov).pdf"
+        },
+        {
+            "title": "11-sinf matematika",
+            "img": "./images/11matem.png",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/11-sinf/Matematika.%2011-sinf.%201-qism%20(2018,%20M.Mirzaahmedov,%20Sh.Ismailov).pdf"
+        }
+    ]
+}

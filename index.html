@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./js/addBooks.js"></script>
+    <title>All books</title>
+</head>
+
+<body>
+    <header class="header">
+        <h2>Kitoblar</h2>
+        <div id="userauth">
+            <!-- Button trigger modal -->
+            <input type="button" id="regBtn" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModall" value="Register">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex flex-column">
+                            <form id="form">
+                                <label for="name">Emailingizni kiriting:</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="email"
+                                    required>
+                                <label for="name">Usernameni kiriting:</label>
+                                <input type="text" id="login" class="form-control" placeholder="username" required>
+                                <label for="name">Parolni kiriting:</label>
+                                <input type="password" id="password" class="form-control" placeholder="password"
+                                    required>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary"
+                                        data-bs-dismiss="modal">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <div id="sayHi">
+            <span class="text-muted">Yuklash uchun registratsiya qiling!</span>
+        </div>
+        <section class="section">
+            <div class="matem section" id="matem">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/5matem.jpg" alt="matem 5">
+                    <div class="card-body">
+                        <p class="card-title">5-sinf matematika</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success" id="downBtn"
+                            onclick="window.open('https://ziyouz.com/kutubxona/category/197-5-sinf?download=10580:matematika-5-sinf-2015-b-haydarov')"
+                            disabled>Yuklash</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
