@@ -3,7 +3,6 @@ async function fetchBooks() {
     const response = await fetch('./data.json')
     const data = await response.json()
     books = data.matem
-    console.log('Books:',books);
     addBooks()
 }
 function generateCard(book) {
