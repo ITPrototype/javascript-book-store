@@ -1,7 +1,5 @@
 let users = []
 let num = 0
-const btn = document.getElementById('downBtn')
-const regBtn = document.getElementById('regBtn')
 const form = document.getElementById('form')
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
