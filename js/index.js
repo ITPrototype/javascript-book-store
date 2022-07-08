@@ -25,6 +25,7 @@ function check() {
         regBtn.value = 'Registered'
         regBtn.disabled = true
         forEachButton(b => b.disabled = false)
+        console.log('Logged');
     }
 }
 setTimeout(function(){check()},5000)

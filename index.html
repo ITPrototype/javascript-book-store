@@ -55,25 +55,25 @@
     </header>
     <div id="container">
         <div id="sayHi">
-            <span class="text-muted">Yuklash uchun registratsiya qiling!</span><br/>
+            <span class="text-muted">Yuklash uchun registratsiya qiling!</span><br>
             <span class="text-muted">Agar registratsiyadan o'tgan bo'lsangiz 5sekund kuting!</span>
         </div>
+        <div class="booksCat">
+            <button class="btn btn-success" onclick="onatili()">Ona tili</button>
+            <button class="btn btn-success" onclick="matem()">Matematika</button>
+            <button class="btn btn-success" onclick="fizika()">Fizika</button>
+            <button class="btn btn-success" onclick="biologiya()">Biologiya</button>
+            <button class="btn btn-success" onclick="kimyo()">Kimyo</button>
+            <button class="btn btn-success" onclick="geomet()">Geometriya</button>
+            <button class="btn btn-success" onclick="rustili()">Rus tili</button>
+        </div>
         <section class="section">
-            <div class="matem section" id="matem">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/5matem.jpg" alt="matem 5">
-                    <div class="card-body">
-                        <p class="card-title">5-sinf matematika</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-success" id="downBtn"
-                            onclick="window.open('https://ziyouz.com/kutubxona/category/197-5-sinf?download=10580:matematika-5-sinf-2015-b-haydarov')"
-                            disabled>Yuklash</button>
-                    </div>
-                </div>
+            <div class="book section" id="book">
+                
             </div>
         </section>
     </div>
+    <button id="downBtn" style="display: none;"></button>
 </body>
 <script src="./js/index.js"></script>
 

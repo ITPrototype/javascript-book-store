@@ -2,33 +2,97 @@
     "matem": [
         {
             "title": "6-sinf matematika",
-            "img": "./images/6matem.jpg",
+            "img": "./images/matem/6matem.jpg",
             "link":"https://n.ziyouz.com/books/darsliklar/yangi/6-sinf/Matematika.%206-sinf%20(2017,%20M.Mirzaahmedov,%20A.Rahimqoriyev).pdf"
         },
         {
             "title": "7-sinf matematika",
-            "img": "./images/7matem.jfif",
+            "img": "./images/matem/7matem.jfif",
             "link":"https://n.ziyouz.com/books/darsliklar/yangi/7-sinf/Algebra.%207-sinf%20(2017,%20Sh.Alimov,%20O.Xolmuhamedov).pdf"
         },
         {
             "title": "8-sinf algebra",
-            "img": "./images/8matem.png",
+            "img": "./images/matem/8matem.png",
             "link":"http://kutubxonachi.uz/media/books/algebra-8-sinf_kutubxonachi.uz.djvu"
         },
         {
             "title": "9-sinf matematika",
-            "img": "./images/9matem.jfif",
+            "img": "./images/matem/9matem.jfif",
             "link":"https://n.ziyouz.com/books/darsliklar/yangi/9-sinf/Algebra.%209-sinf%20(2014,%20Sh.Alimov,%20O.Xolmuhamedov).pdf"
         },
         {
             "title": "10-sinf matematika",
-            "img": "./images/10matem.jfif",
+            "img": "./images/matem/10matem.jfif",
             "link":"https://n.ziyouz.com/books/darsliklar/yangi/10-sinf/Matematika.%2010-sinf%20(2017,%20M.Mirzaahmedov,%20B.Haydarov).pdf"
         },
         {
             "title": "11-sinf matematika",
-            "img": "./images/11matem.png",
+            "img": "./images/matem/11matem.png",
             "link":"https://n.ziyouz.com/books/darsliklar/yangi/11-sinf/Matematika.%2011-sinf.%201-qism%20(2018,%20M.Mirzaahmedov,%20Sh.Ismailov).pdf"
+        }
+    ],
+    "onatili":[
+        {
+            "title":"5-sinf ona tili",
+            "img":"./images/onatili/onatili5.jpg",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/5-sinf/Ona%20tili.%205-sinf%20(2015,%20N.Mahmudov,%20A.Nurmonov).pdf"
+        },
+        {
+            "title":"6-sinf ona tili",
+            "img":"./images/onatili/onatili6.jpg",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/6-sinf/Ona%20tili.%206-sinf%20(2017,%20N.Mahmudov,%20A.Nurmonov).pdf"
+        },
+        {
+            "title":"7-sinf ona tili",
+            "img":"./images/onatili/onatili7.jfif",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/7-sinf/Ona%20tili.%207-sinf%20(2017,%20N.Mahmudov,%20A.Nurmonov).pdf"
+        },
+        {
+            "title":"8-sinf ona tili",
+            "img":"./images/onatili/onatili8.png",
+            "link":"https://www.ziyouz.com/books/darsliklar/yangi/8-sinf/Ona%20tili.%208-sinf%20(2014,%20M.Qodirov,%20H.Ne'matov).pdf"
+        },
+        {
+            "title":"9-sinf ona tili",
+            "img":"./images/onatili/onatili9.jpg",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/9-sinf/Ona%20tili.%209-sinf%20(2014,%20N.Mahmudov,%20A.Nurmonov).pdf"
+        },
+        {
+            "title":"10-sinf ona tili",
+            "img":"./images/onatili/onatili10.png",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/10-sinf/Ona%20tili.%2010-sinf%20(2017,%20N.Mahmudov,%20A.Sobirov).pdf"
+        },
+        {
+            "title":"11-sinf ona tili",
+            "img":"./images/onatili/onatili11.png",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/11-sinf/Ona%20tili.%2011-sinf%20(2018,%20N.Mahmudov,%20Y.Odilov).pdf"
+        }
+    ],
+    "fizika":[
+        {
+            "title":"7-sinf fizika",
+            "img":"./images/fizika/fizika7.jpg",
+            "link":"https://n.ziyouz.com/books/darsliklar/yangi/7-sinf/Fizika.%207-sinf%20(2017,%20P.Habibullayev,%20A.Boydedayev).pdf"
+        },
+        {
+            "title":"8-sinf fizika",
+            "img":"./images/fizika/fizika8.png",
+            "link":"https://www.ziyouz.com/kutubxona/category/200-8-sinf?download=10605:fizika-8-sinf-2014-p-habibullayev-a-boydedayev"
+        },
+        {
+            "title":"9-sinf fizika",
+            "img":"./images/fizika/fizika9.png",
+            "link":"https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10623:fizika-9-sinf-2014-p-habibullayev-a-boydedayev"
+        },
+        {
+            "title":"10-sinf fizika",
+            "img":"./images/fizika/fizika10.jfif",
+            "link":"https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9353:fizika-10-sinf-2017-n-turdiyev-k-tursunmetov"
+        },
+        {
+            "title":"11-sinf fizika",
+            "img":"./images/fizika/fizika11.jfif",
+            "link":"https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10649:fizika-11-sinf-2018-n-turdiyev-k-tursunmetov"
         }
     ]
 }

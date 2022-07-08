@@ -1,9 +1,40 @@
 let books = []
-async function fetchBooks() {
+
+async function onatili(){
+    let onatiliArr = []
+    document.getElementById('book').innerHTML = ''
     const response = await fetch('./data.json')
     const data = await response.json()
-    books = data.matem
-    addBooks()
+    onatiliArr = data.onatili
+    addBooks(onatiliArr)
+}
+async function biologiya(){
+    alert('Tez orada')
+}
+async function kimyo(){
+    alert('Tez orada')
+}
+async function geomet(){
+    alert('Tez orada')
+}
+async function rustili(){
+    alert('Tez orada')
+}
+async function fizika(){
+    let fizikaArr = []
+    document.getElementById('book').innerHTML = ''
+    const response = await fetch('./data.json')
+    const data = await response.json()
+    fizikaArr = data.fizika
+    addBooks(fizikaArr)
+}
+async function matem() {
+    let matemArr = []
+    document.getElementById('book').innerHTML = ''
+    const response = await fetch('./data.json')
+    const data = await response.json()
+    matemArr = data.matem
+    addBooks(matemArr)
 }
 function generateCard(book) {
     return `
@@ -20,12 +51,11 @@ function generateCard(book) {
     </div>
     `
 }
-function addBooks() {
-    const matem = document.getElementById('matem')
+function addBooks(arr) {
+    const matem = document.getElementById('book')
     let htmllist = ''
-    books.map(book=>(
+    arr.map(book=>(
         htmllist += generateCard(book)
     ))
     matem.innerHTML += htmllist
 }
-fetchBooks()
